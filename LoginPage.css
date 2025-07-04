@@ -1,0 +1,237 @@
+.full
+{
+border-radius: 2%;
+border-style: solid;
+height: 550px;
+width: 900px;
+position: relative;
+top: 48px;
+left: 170px;
+border-width: 0px;
+box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+   
+}
+.welcom
+{
+color: white;
+background-color: #45b39d ;
+border-radius: 2%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+width: 450px;
+height:550px ;
+
+}
+.text
+{position: relative;
+top:160px;
+font-size: 37px;
+}
+.text1
+{
+ position: relative;
+top:160px;
+   
+}
+.sign 
+{
+border-radius: 25px;
+border-style: solid;
+border-width: 2px;
+width: 220px;
+height: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5;
+position: relative;
+top:190px;
+cursor: pointer;
+font-size: medium;
+}
+.signin
+{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.2s;
+
+}
+.signin:active
+{
+transform: scale(0.95);
+
+}
+.account
+{
+
+ position: relative;
+border-radius: 2%;
+border-style: solid;
+position: relative;
+bottom: 550px;
+width: 449px;
+height:546px;
+left:450px; 
+border-width: 0px;
+}
+.creat
+{
+ text-align: center;
+ position: relative;
+ top:65px;
+ color:#45b39d;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 35px;
+}
+#icon-container {
+  display: flex;              
+  flex-direction: row;        
+  gap: 20px;                  
+}
+#icon1 {
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+  width: 37px;
+  height: 37px;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  position: relative;
+  text-align: center;
+  left: 155px;
+  top: 70px;
+    cursor: pointer;
+
+}
+#icon2
+{
+    border-radius: 100%;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+  width: 37px;
+  height: 37px;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  position: relative;
+  text-align: center;
+  left: 155px;
+  top: 70px;
+    cursor: pointer;  
+}
+#icon3
+{
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+  width: 37px;
+  height: 37px;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  position: relative;
+  text-align: center;
+  left: 155px;
+  top: 70px;
+    cursor: pointer;
+}
+#icon1:active
+{
+transform: scale(0.95);
+box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.5);
+
+}#icon2:active
+{
+transform: scale(0.95);
+
+}#icon3:active
+{
+transform: scale(0.95);
+
+}
+#icon1:hover
+{
+    box-shadow: 0px 0px 5px 2px rgb(0, 56, 141);
+}
+#icon2:hover
+{
+    box-shadow: 0px 0px 5px 2px rgba(230, 27, 0, 0.804);
+
+}
+#icon3:hover
+{
+    box-shadow: 0px 0px 5px 2px rgba(46, 105, 193, 0.601);
+
+}
+.text2
+{
+color:rgba(156, 152, 152, 0.7) ;
+  justify-content: center;    
+  align-items: center; 
+  text-align: center;
+  position: relative;
+  top:80px
+}
+#mail
+{
+position: relative;
+left: 130px;
+top: 28px;
+}
+#pass
+{
+position: relative;
+left: 130px;
+top: 28px;
+
+}
+#person
+{
+position: relative;
+left: 130px;
+top: 28px;
+}
+#myInput
+{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    
+}
+#input
+{
+  display: flex;              
+  flex-direction: column;        
+  gap: 0,5px; 
+  position: relative;
+  top:70px;
+  justify-content: center;    
+  align-items: center; 
+}
+#mySubmit
+{
+border-radius: 30px;
+border-width: 0px;
+height: 42px;
+width: 160px;
+position: relative;
+top:20px;
+background-color: #45b39d;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+cursor: pointer;
+transition: transform 0.2s;
+
+}
+#mySubmit:active
+{
+    transform: scale(0.95);
+}
