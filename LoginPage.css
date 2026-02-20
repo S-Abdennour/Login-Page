@@ -4,9 +4,9 @@ border-radius: 2%;
 border-style: solid;
 height: 550px;
 width: 900px;
-position: relative;
-top: 48px;
-left: 170px;
+display: flex;
+justify-content: centre;
+align-item: center;   
 border-width: 0px;
 box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
    
