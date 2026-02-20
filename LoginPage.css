@@ -1,3 +1,10 @@
+.body
+{
+   display: flex;
+   justify-content: centre;
+   align-item: center;  
+}  
+
 .full
 {
 border-radius: 2%;
